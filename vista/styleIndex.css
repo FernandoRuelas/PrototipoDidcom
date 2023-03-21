@@ -1,0 +1,90 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap');
+
+* {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(../img/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #1565C0;
+}
+
+#formulario {
+    display: flex;
+}
+
+form {
+    margin-left: 100px;
+    margin-top: 100px;
+    
+
+    width: 300px;
+    height: 400px;
+    border-radius: 20px;
+    background-color: white;
+
+    -webkit-box-shadow: 0px 0px 13px 4px rgba(0,0,0,0.36);
+    -moz-box-shadow: 0px 0px 13px 4px rgba(0,0,0,0.36);
+    box-shadow: 0px 0px 13px 4px rgba(0,0,0,0.36);
+}
+
+form #logo{
+    display: flex;
+    margin-top: 20px;
+    width: 215.2px;
+    height: 59px;
+}
+
+form .formT_area {
+    margin: 10px 30px;
+    display: flex;
+    font-weight: bold;
+    color: rgb(32, 32, 32);
+    font-family: 'Inter', sans-serif;
+}
+
+form .input_area {
+    margin-bottom: 15px;
+    padding: 10px;
+    
+    display: flex;
+    font-family: 'Inter', sans-serif;
+    border-radius: 20px;
+    background-color: #E3F2FD;
+    border: solid black 0px;
+
+    width: 250px;
+    height: 40px; 
+}
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: black;
+    opacity: 39%;
+  }
+
+#recuperar {
+    font-family: 'Inter', sans-serif;
+    margin: 10px 30px;
+    color: #B5B5B5;
+    font-size: 13px;
+}
+
+#btn {
+    display: flex;
+    margin-top: 50px;
+    width: 120px;
+    height: 50px;
+
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    color: white;
+
+    background-color: #1565C0;
+    border: solid black 0px;
+    border-radius: 20px;
+}

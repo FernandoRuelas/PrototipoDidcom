@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+* {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #FFFFFF;
+}
+
+#navegador {
+    background-color: white;
+    height: 50px;
+    
+    -webkit-box-shadow: 0px 3px 13px 4px rgba(0,0,0,0.36);
+    -moz-box-shadow: 0px 3px 13px 4px rgba(0,0,0,0.36);
+    box-shadow: 0px 3px 13px 4px rgba(0,0,0,0.36);
+}
+
+#navegador ul {
+    height: 50px;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+}
+
+#navegador ul li:first-child {
+    margin-left: 20px;
+}
+
+#navegador ul li{
+    list-style: none;
+    margin-left: 0px;
+}
+
+#navegador ul li img{
+    width: 140px;
+}
+
+#navegador #search {
+    padding: 10px;
+    background-color: #BBDEFB;
+    width: 400px;
+    height: 35px;
+
+    align-self: center;
+
+    border-radius: 30px;
+    border: solid black 0px;
+}
+
+::placeholder {
+    font-family: 'Inter', sans-serif;
+    color: black;
+    font-style: italic;
+    opacity: 39%;
+  }
+
+  /*OPTIONS*/
+
+#options {
+    float: left;
+    display: flex;
+    background-color: #0D47A1;
+    width: 150px;
+    height: 593px;
+    margin-left: 0;
+}
+
+#options ul li{
+    list-style: none;
+    margin-bottom: 30px;
+}
+
+#options ul li:first-child{
+    margin-top: 20px;
+}
+
+#options ul li a{
+    font-family: 'Inter', sans-serif;
+    color: #FFFFFF;
+    text-decoration: none;
+    
+}
+
+#options ul li:hover{
+    background-color: #BBDEFB;
+    border-radius: 20px;
+    height: 30px;
+    padding: 5px;
+}
+
+table {
+    border-radius: 15px;
+    padding: 15px;
+    margin-top: 100px;
+    float: left;
+    margin-left: 50px;
+
+    -webkit-box-shadow: 0px 0px 13px 4px rgba(0,0,0,0.36);
+    -moz-box-shadow: 0px 0px 13px 4px rgba(0,0,0,0.36);
+    box-shadow: 0px 0px 13px 4px rgba(0,0,0,0.36);
+}
+
+
+table th {
+    font-family: 'Inter', sans-serif;
+    padding-right: 20px;
+    text-align: center;
+}
+
+table td {
+    font-family: 'Inter', sans-serif;
+    padding-right: 20px;
+    text-align: center;
+}
